@@ -1,4 +1,4 @@
-package designPattern.observer.weatherStation;
+package designPattern.observer.weather;
 
 import java.util.ArrayList;
 

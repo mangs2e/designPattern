@@ -1,4 +1,4 @@
-package designPattern.observer.weatherStation;
+package designPattern.observer.weather;
 
 
 //테스트용 클래스

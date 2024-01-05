@@ -1,4 +1,4 @@
-package designPattern.observer.weatherStation;
+package designPattern.observer.weather;
 
 //체감온도에 대한 정보를 나타내는 디스플레이
 public class HeatIndexDisplay implements Observer, DisplayElement{

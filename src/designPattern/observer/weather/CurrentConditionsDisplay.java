@@ -1,4 +1,4 @@
-package designPattern.observer.weatherStation;
+package designPattern.observer.weather;
 
 //현재 기상 조건을 표시하는 디스플레이
 public class CurrentConditionsDisplay implements DisplayElement, Observer{

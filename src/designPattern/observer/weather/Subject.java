@@ -1,4 +1,4 @@
-package designPattern.observer.weatherStation;
+package designPattern.observer.weather;
 
 //주제 인터페이스
 public interface Subject {
