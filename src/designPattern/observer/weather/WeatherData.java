@@ -2,7 +2,7 @@ package designPattern.observer.weather;
 
 import java.util.ArrayList;
 
-//기상 스테이션에서 데이터들을 가져와 처리하는 클래스
+//기상 스테이션에서 데이터들을 가져와 처리하는 클래스 (push 방식)
 public class WeatherData implements Subject {
     private ArrayList observers; //옵저버를 관리할 리스트
     private float temperature; //온도
