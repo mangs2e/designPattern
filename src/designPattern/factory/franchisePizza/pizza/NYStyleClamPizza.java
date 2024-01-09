@@ -1,4 +1,4 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizza;
 
 public class NYStyleClamPizza extends Pizza {
     public NYStyleClamPizza() {

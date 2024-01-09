@@ -1,6 +1,8 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizzastore;
 
-public class ChicagoPizzaStore extends PizzaStore{
+import designPattern.factory.franchisePizza.pizza.*;
+
+public class ChicagoPizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {
         if (type.equals("cheese")) {

@@ -1,12 +1,13 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizza;
 
-public class NYStyleVeggiePizza extends Pizza {
-    public NYStyleVeggiePizza() {
-        name = "NY Style Veggie Pizza";
+public class NYStylePepperoni extends Pizza {
+    public NYStylePepperoni() {
+        name = "NY Style Pepperoni Pizza";
         dough = "Thin Crust Dough";
         sauce = "Marinara Sauce";
 
         toppings.add("Grated Reggiano Cheese");
+        toppings.add("Sliced Pepperoni");
         toppings.add("Garlic");
         toppings.add("Onion");
         toppings.add("Mushrooms");

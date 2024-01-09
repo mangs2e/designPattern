@@ -1,8 +1,8 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizza;
 
-public class ChicagoStylePepperoni extends Pizza {
-    public ChicagoStylePepperoni() {
-        name = "Chicago Style Pepperoni Pizza";
+public class ChicagoStyleVeggiePizza extends Pizza {
+    public ChicagoStyleVeggiePizza() {
+        name = "Chicago Deep Dish Veggie Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
@@ -10,10 +10,9 @@ public class ChicagoStylePepperoni extends Pizza {
         toppings.add("Black Olives");
         toppings.add("Spinach");
         toppings.add("Eggplant");
-        toppings.add("Sliced Pepperoni");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices");
     }
 }

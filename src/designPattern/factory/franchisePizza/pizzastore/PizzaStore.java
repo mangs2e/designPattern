@@ -1,4 +1,6 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizzastore;
+
+import designPattern.factory.franchisePizza.pizza.Pizza;
 
 //팩토리를 참조하지 않고 각 분점에 따른 피자 생성 방법을 다르게 하기 위한 추상클래스
 public abstract class PizzaStore {

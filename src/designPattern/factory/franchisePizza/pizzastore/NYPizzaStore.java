@@ -1,4 +1,6 @@
-package designPattern.factory.franchisePizza;
+package designPattern.factory.franchisePizza.pizzastore;
+
+import designPattern.factory.franchisePizza.pizza.*;
 
 public class NYPizzaStore extends PizzaStore {
     //피자를 만드는 과정은 분점Store에서 직접 구현
