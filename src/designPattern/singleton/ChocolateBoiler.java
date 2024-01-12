@@ -15,9 +15,15 @@ public class ChocolateBoiler {
     //    return uniqueInstance; -> 이미 인스턴스가 존재하므로 리턴만 하면 됨
     //}
 
+    private ChocolateBoiler() { //생성자를 private으로 설정
+        empty = true;
+        boiled = false;
+    }
+
     //멀티스레딩 문제 해결방법 1. getInstance() 메소드를 동기화 시키기
     //public static synchronized ChocolateBoiler getInstance()로 설정해서 getInstance 메소드를 사용할 때 동기화를 진행하도록 설정 가능!
     //이로 인해 성능이 심하게 저하되며 병목으로 작용한다면 다른 방법 사용해야함!
+
     public static ChocolateBoiler getInstance() { //유일한 인스턴스를 호출하여 사용할 메소드 (public으로 설정)
         if (uniqueInstance == null) {
             uniqueInstance = new ChocolateBoiler();
@@ -35,11 +41,6 @@ public class ChocolateBoiler {
             }
         }
         return uniqueInstance;
-    }
-
-    private ChocolateBoiler() { //생성자를 private으로 설정
-        empty = true;
-        boiled = false;
     }
 
     public void fill() {
